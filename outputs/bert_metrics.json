@@ -1,0 +1,63 @@
+{
+  "n": 207,
+  "accuracy": 0.7874396135265701,
+  "balanced_accuracy": 0.6235786435786436,
+  "macro_f1": 0.6096217248191541,
+  "weighted_f1": 0.778097573854109,
+  "coverage": 1.0,
+  "selective_accuracy": 0.7874396135265701,
+  "abstention_count": 0,
+  "gold_class_support": {
+    "Roatan": 63,
+    "Costa Maya": 56,
+    "Cozumel": 60,
+    "Multiple Destinations": 6,
+    "General Cruise": 22
+  },
+  "evaluation_classes_present": [
+    "Roatan",
+    "Costa Maya",
+    "Cozumel",
+    "Multiple Destinations",
+    "General Cruise"
+  ],
+  "low_support_classes": [
+    "Multiple Destinations"
+  ],
+  "min_support_threshold": 10,
+  "per_class": {
+    "Roatan": {
+      "precision": 0.9215686274509803,
+      "recall": 0.746031746031746,
+      "f1-score": 0.8245614035087719,
+      "support": 63.0
+    },
+    "Costa Maya": {
+      "precision": 0.7105263157894737,
+      "recall": 0.9642857142857143,
+      "f1-score": 0.8181818181818182,
+      "support": 56.0
+    },
+    "Cozumel": {
+      "precision": 0.8909090909090909,
+      "recall": 0.8166666666666667,
+      "f1-score": 0.8521739130434782,
+      "support": 60.0
+    },
+    "Multiple Destinations": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "General Cruise": {
+      "precision": 0.52,
+      "recall": 0.5909090909090909,
+      "f1-score": 0.5531914893617021,
+      "support": 22.0
+    }
+  },
+  "method": "contextual_bert",
+  "model_dir": "outputs\\bert_balanced\\model",
+  "split_file": "data\\processed\\review_splits.csv"
+}

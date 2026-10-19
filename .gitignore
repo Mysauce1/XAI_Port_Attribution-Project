@@ -1,0 +1,19 @@
+cat > .gitignore <<'EOF'
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+.cache/
+outputs/**/checkpoints/
+outputs/**/model/
+outputs/**/runs/
+model.safetensors
+optimizer.pt
+*.safetensors
+*.pt
+*.pth
+EOF

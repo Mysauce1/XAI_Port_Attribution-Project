@@ -1,0 +1,208 @@
+review_id,clause_id,split,clause_text,destination_label,rule_prediction,bert_prediction,sentiment_label,vader_label,vader_compound,vader_pos,vader_neu,vader_neg,vader_correct
+498,498-S001-C01,test,I'm a solo traveler and found Cozumel very easy to navigate.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.4927,0.242,0.758,0.0,True
+498,498-S002-C01,test,I just rented a scooter and rode around the island.,Cozumel,Cozumel,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+498,498-S003-C01,test,The east side is deserted and beautiful.,Cozumel,Cozumel,Costa Maya,Positive,Positive,0.5994,0.394,0.606,0.0,True
+498,498-S004-C01,test,Roatan was a bit harder to do alone as the taxis are expensive for one person.,Roatan,Roatan,Roatan,Negative,Negative,-0.25,0.0,0.882,0.118,True
+498,498-S005-C01,test,I ended up joining a group for a snorkeling trip.,Roatan,Roatan,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+498,498-S006-C01,test,Costa Maya is impossible to enjoy alone without spending a lot of money on a taxi or a tour.,Costa Maya,Costa Maya,Costa Maya,Negative,Positive,0.296,0.144,0.766,0.09,False
+498,498-S007-C01,test,The port area is fine,Costa Maya,Costa Maya,Costa Maya,Positive,Positive,0.2023,0.31,0.69,0.0,True
+498,498-S007-C02,test,but everything is priced for tourists.,Costa Maya,Costa Maya,Costa Maya,Negative,Neutral,0.0,0.0,1.0,0.0,False
+498,498-S008-C01,test,I'd recommend Cozumel for anyone who likes to explore independently.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.6486,0.398,0.602,0.0,True
+539,539-S001-C01,test,We did the Amazing Race excursion in Cozumel and it was a blast!,Cozumel,Cozumel,Cozumel,Positive,Positive,0.6239,0.254,0.746,0.0,True
+539,539-S002-C01,test,You have to solve clues and run around the downtown area.,Cozumel,Cozumel,Cozumel,Neutral,Positive,0.2023,0.153,0.847,0.0,False
+539,539-S003-C01,test,"It's a great way to see the city and interact with locals, though you'll be exhausted by the end.",Cozumel,Cozumel,Costa Maya,Positive,Positive,0.3818,0.174,0.72,0.106,True
+539,539-S004-C01,test,Roatan was much more about nature.,Roatan,Roatan,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+539,539-S005-C01,test,We visited the Iguana farm which was... interesting.,Roatan,Roatan,Roatan,Positive,Positive,0.4019,0.278,0.722,0.0,True
+539,539-S006-C01,test,There are hundreds of them everywhere!,Roatan,Roatan,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+539,539-S007-C01,test,It's a bit weird,Roatan,Unclear,Costa Maya,Negative,Negative,-0.1779,0.0,0.638,0.362,True
+539,539-S007-C02,test,but definitely unique.,Roatan,Unclear,Costa Maya,Positive,Positive,0.5499,0.64,0.36,0.0,True
+539,539-S008-C01,test,Costa Maya was a bit of a 'meh' day.,Costa Maya,Costa Maya,Costa Maya,Negative,Negative,-0.0772,0.0,0.86,0.14,True
+539,539-S009-C01,test,We did the fly fishing excursion,Costa Maya,Costa Maya,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+539,539-S009-C02,test,but didn't catch anything.,Costa Maya,Costa Maya,Costa Maya,Negative,Neutral,0.0,0.0,1.0,0.0,False
+539,539-S010-C01,test,"The guide tried hard,",Costa Maya,Costa Maya,Costa Maya,Neutral,Negative,-0.1027,0.0,0.682,0.318,False
+539,539-S010-C02,test,but the fish just weren't biting that day.,Costa Maya,Costa Maya,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+539,539-S011-C01,test,"Still, it was nice to be out on the water away from the ship crowds.",General Cruise,General Cruise,General Cruise,Positive,Positive,0.4215,0.167,0.833,0.0,True
+242,242-S001-C01,test,Costa Maya was a bit of a letdown for me.,Costa Maya,Costa Maya,Costa Maya,Negative,Neutral,0.0,0.0,1.0,0.0,False
+242,242-S002-C01,test,The port area feels very manufactured and touristy.,Costa Maya,Costa Maya,Costa Maya,Negative,Neutral,0.0,0.0,1.0,0.0,False
+242,242-S003-C01,test,"We took a taxi to Mahahual, which was better,",Costa Maya,Costa Maya,Costa Maya,Positive,Positive,0.4404,0.266,0.734,0.0,True
+242,242-S003-C02,test,"but the vendors there are extremely pushy, making it hard to just relax on the beach.",Costa Maya,Costa Maya,Costa Maya,Negative,Neutral,0.0414,0.179,0.604,0.218,False
+242,242-S004-C01,test,Cozumel was much better organized.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.4404,0.42,0.58,0.0,True
+242,242-S005-C01,test,We did the underwater oxygen helmets and it was a surreal experience seeing the fish so close without needing a SCUBA certification.,Cozumel,Cozumel,Cozumel,Positive,Neutral,0.0,0.0,1.0,0.0,False
+242,242-S006-C01,test,Roatan was beautiful,Roatan,Roatan,Roatan,Positive,Positive,0.5994,0.661,0.339,0.0,True
+242,242-S006-C02,test,"but we had a major delay getting off the ship due to local port authorities, which cut our excursion time short by nearly an hour.",General Cruise,General Cruise,Roatan,Negative,Negative,-0.7218,0.0,0.792,0.208,True
+242,242-S007-C01,test,"We still managed to see the monkeys and sloths,",Roatan,Unclear,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+242,242-S007-C02,test,but everything felt rushed.,Roatan,Unclear,Roatan,Negative,Neutral,0.0,0.0,1.0,0.0,False
+242,242-S008-C01,test,"I'd recommend this itinerary for the scenery,",General Cruise,General Cruise,General Cruise,Positive,Positive,0.3612,0.294,0.706,0.0,True
+242,242-S008-C02,test,but be prepared for some logistical headaches at the piers.,Roatan,Unclear,General Cruise,Neutral,Positive,0.3291,0.207,0.793,0.0,False
+513,513-S001-C01,test,The ports were nice,General Cruise,Unclear,General Cruise,Positive,Positive,0.4215,0.483,0.517,0.0,True
+513,513-S002-C01,test,but I felt like the excursions were overpriced for what you got.,Roatan,Unclear,General Cruise,Negative,Positive,0.5023,0.228,0.772,0.0,False
+513,513-S003-C01,test,"In Roatan, we paid for a 'private beach' that turned out to be packed with people from three different cruise lines.",Roatan,Roatan,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+513,513-S004-C01,test,The buffet lunch was cold chicken and rice.,Roatan,General Cruise,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+513,513-S005-C01,test,Cozumel was better because we just walked to a local pharmacy and then a grocery store to buy real Mexican vanilla and candy.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.4404,0.116,0.884,0.0,True
+513,513-S006-C01,test,Much better prices than the 'official' shops.,Multiple Destinations,Cozumel,Cozumel,Positive,Positive,0.4404,0.326,0.674,0.0,True
+513,513-S007-C01,test,"Costa Maya was fine, we just sat by the port pool.",Costa Maya,Costa Maya,Costa Maya,Positive,Positive,0.2023,0.153,0.847,0.0,True
+513,513-S008-C01,test,"It's free,",Costa Maya,Costa Maya,Costa Maya,Neutral,Positive,0.5106,0.767,0.233,0.0,False
+513,513-S008-C02,test,but the drinks are expensive.,Costa Maya,Costa Maya,Costa Maya,Negative,Neutral,0.0,0.0,1.0,0.0,False
+513,513-S009-C01,test,"The time in port was enough for us, honestly, we were ready to get back to the AC by 2 PM.",Costa Maya,Costa Maya,General Cruise,Neutral,Positive,0.6705,0.224,0.776,0.0,False
+337,337-S001-C01,test,Roatan had the best mix of nature and activity.,Roatan,Roatan,Roatan,Positive,Positive,0.6369,0.344,0.656,0.0,True
+337,337-S002-C01,test,"We did a guided tour that included a viewpoint, local market, and beach stop.",Roatan,Roatan,Roatan,Neutral,Negative,-0.296,0.0,0.855,0.145,False
+337,337-S003-C01,test,It felt like we saw more of the island beyond the typical tourist spots.,Roatan,Roatan,Costa Maya,Neutral,Positive,0.3612,0.161,0.839,0.0,False
+337,337-S004-C01,test,Costa Maya was more hit or miss.,Costa Maya,Costa Maya,Costa Maya,Neutral,Negative,-0.2177,0.0,0.763,0.237,False
+337,337-S005-C01,test,"The beach we went to was nice,",Costa Maya,Costa Maya,Costa Maya,Positive,Positive,0.4215,0.318,0.682,0.0,True
+337,337-S005-C02,test,but getting there involved some confusion with taxis and timing.,Costa Maya,Costa Maya,Costa Maya,Neutral,Negative,-0.4215,0.0,0.763,0.237,False
+337,337-S006-C01,test,Cozumel was very straightforward.,Cozumel,Cozumel,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+337,337-S007-C01,test,Good for a relaxed day without much planning.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.7269,0.504,0.496,0.0,True
+461,461-S001-C01,test,Roatan ended up being the most memorable stop for us.,Roatan,Roatan,Roatan,Positive,Negative,-0.3566,0.0,0.784,0.216,False
+461,461-S002-C01,test,"We booked a snorkeling trip through a smaller local operator, and the water clarity was unreal.",Roatan,Roatan,Roatan,Positive,Positive,0.4019,0.153,0.847,0.0,True
+461,461-S003-C01,test,It didn't feel overly commercial once we got away from the immediate port.,Roatan,Roatan,General Cruise,Negative,Neutral,0.0,0.0,1.0,0.0,False
+461,461-S004-C01,test,Costa Maya was a bit of a letdown in comparison.,Costa Maya,Costa Maya,Costa Maya,Negative,Neutral,0.0,0.0,1.0,0.0,False
+461,461-S005-C01,test,"The port area felt like a controlled shopping zone, and we didn't book an excursion, which I think was a mistake.",Costa Maya,Costa Maya,Costa Maya,Neutral,Neutral,0.0258,0.105,0.795,0.1,True
+461,461-S006-C01,test,"Cozumel was easier to manage since taxis were straightforward,",Cozumel,Cozumel,Cozumel,Neutral,Positive,0.4215,0.259,0.741,0.0,False
+461,461-S006-C02,test,but it was definitely the busiest port of the three.,Cozumel,Cozumel,Cozumel,Neutral,Positive,0.5499,0.283,0.717,0.0,False
+48,48-S001-C01,test,We loved the history in Costa Maya!,Costa Maya,Costa Maya,Costa Maya,Positive,Positive,0.636,0.411,0.589,0.0,True
+48,48-S002-C01,test,The Mayan ruins at Chacchoben are a must-see if you haven't been.,Costa Maya,Costa Maya,Costa Maya,Positive,Negative,-0.4404,0.0,0.791,0.209,False
+48,48-S003-C01,test,"Our guide, Ivan, was so passionate and pointed out spider monkeys in the trees above the temples.",Costa Maya,Costa Maya,Costa Maya,Neutral,Positive,0.656,0.214,0.786,0.0,False
+48,48-S004-C01,test,It felt very Indiana Jones.,Costa Maya,Unclear,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+48,48-S005-C01,test,Cozumel was a bit of a contrast.,Cozumel,Cozumel,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+48,48-S006-C01,test,We did the Jeep tour around the island.,Cozumel,Cozumel,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+48,48-S007-C01,test,The east side of the island is much more rugged and beautiful than the side where the ships dock.,Cozumel,Cozumel,General Cruise,Positive,Positive,0.6326,0.188,0.812,0.0,True
+48,48-S008-C01,test,"No electricity over there, just wild waves and small beach bars.",Cozumel,Unclear,Costa Maya,Neutral,Negative,-0.296,0.0,0.82,0.18,False
+48,48-S009-C01,test,Roatan was our relaxation day.,Roatan,Roatan,Roatan,Neutral,Positive,0.5267,0.459,0.541,0.0,False
+48,48-S010-C01,test,We went to Little French Key.,Roatan,Roatan,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+48,48-S011-C01,test,"It's a bit pricey to get out there,",Roatan,Roatan,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+48,48-S011-C02,test,but the water is calm and the lunch was fantastic-fresh lobster and coconut rice.,Roatan,Roatan,Costa Maya,Positive,Positive,0.4497,0.185,0.815,0.0,True
+48,48-S012-C01,test,"One thing to note: the pier in Roatan is very long, so be prepared for a walk if you don't use the 'magic chair' lift.",Roatan,Roatan,Roatan,Negative,Positive,0.2911,0.083,0.917,0.0,False
+567,567-S001-C01,test,Roatan had a solid snorkeling excursion,Roatan,Roatan,Roatan,Neutral,Positive,0.1531,0.242,0.758,0.0,False
+567,567-S001-C02,test,but the transfer process from ship to boat took longer than expected.,General Cruise,General Cruise,Roatan,Negative,Neutral,0.0,0.0,1.0,0.0,False
+567,567-S002-C01,test,Costa Maya was disappointing without an excursion since we mostly stayed in the port complex and didn't see much else.,Costa Maya,Costa Maya,Costa Maya,Negative,Negative,-0.4939,0.0,0.856,0.144,True
+567,567-S003-C01,test,"Cozumel was more flexible, and we took a taxi to a quieter beach area which ended up being the best part of that stop.",Cozumel,Cozumel,Cozumel,Positive,Positive,0.6361,0.216,0.71,0.074,True
+567,567-S004-C01,test,This itinerary really seems to depend on how much you plan ahead.,General Cruise,General Cruise,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+176,176-S001-C01,test,The ports were a mixed bag.,General Cruise,Unclear,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+176,176-S002-C01,test,I loved the history in Costa Maya-the ruins are a must-see even if the drive is long.,Costa Maya,Costa Maya,Costa Maya,Positive,Positive,0.25,0.179,0.688,0.133,True
+176,176-S003-C01,test,Roatan was stunning,Roatan,Roatan,Roatan,Positive,Positive,0.3818,0.565,0.435,0.0,True
+176,176-S003-C02,test,but we had a bad experience with a local taxi driver who tried to overcharge us at the end of the day.,Roatan,Roatan,Roatan,Negative,Negative,-0.6956,0.0,0.816,0.184,True
+176,176-S004-C01,test,It left a bit of a sour taste in my mouth.,Roatan,Roatan,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+176,176-S005-C01,test,Cozumel was the most professional; everything is streamlined for tourists.,Cozumel,Cozumel,Cozumel,Positive,Neutral,0.0,0.0,1.0,0.0,False
+176,176-S006-C01,test,We did the submarine tour and it was fascinating to see the reef from 100 feet down.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.5423,0.179,0.821,0.0,True
+176,176-S007-C01,test,"I think the itinerary is good,",General Cruise,General Cruise,Roatan,Positive,Positive,0.4404,0.367,0.633,0.0,True
+176,176-S007-C02,test,but you have to be careful in Roatan if you aren't on an official ship excursion.,Roatan,Roatan,Roatan,Neutral,Positive,0.2263,0.112,0.888,0.0,False
+176,176-S008-C01,test,"The time spent in each port was mostly okay,",General Cruise,Roatan,Costa Maya,Neutral,Positive,0.2263,0.192,0.808,0.0,False
+176,176-S008-C02,test,but we felt very rushed in Costa Maya because the ruins tour takes up almost the whole window.,Costa Maya,Costa Maya,Costa Maya,Negative,Negative,-0.5927,0.0,0.815,0.185,True
+176,176-S009-C01,test,I'd love an extra two hours there just to relax after the long bus ride back.,Costa Maya,Costa Maya,Costa Maya,Positive,Positive,0.7964,0.336,0.664,0.0,True
+204,204-S001-C01,test,Cozumel is always a favorite.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.4588,0.429,0.571,0.0,True
+204,204-S002-C01,test,We went to Mr. Sanchos for the day.,Cozumel,Cozumel,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+204,204-S003-C01,test,It's an all-inclusive beach club and they really take care of you.,Cozumel,Cozumel,Costa Maya,Neutral,Positive,0.539,0.24,0.76,0.0,False
+204,204-S004-C01,test,The food was surprisingly good for a buffet and the drinks kept coming.,Cozumel,General Cruise,Costa Maya,Positive,Positive,0.6249,0.317,0.683,0.0,True
+204,204-S005-C01,test,"It was very crowded though, so if you want peace and quiet, this isn't it.",Cozumel,Unclear,Costa Maya,Mixed,Positive,0.6204,0.28,0.72,0.0,False
+204,204-S006-C01,test,Roatan was beautiful,Roatan,Roatan,Roatan,Positive,Positive,0.5994,0.661,0.339,0.0,True
+204,204-S006-C02,test,but the pier at Coxen Hole is very industrial looking.,Roatan,Roatan,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+204,204-S007-C01,test,We did a catamaran snorkel trip and saw some great coral.,Roatan,Roatan,Roatan,Positive,Positive,0.6249,0.291,0.709,0.0,True
+204,204-S008-C01,test,The crew was fun,Roatan,General Cruise,Cozumel,Positive,Positive,0.5106,0.524,0.476,0.0,True
+204,204-S008-C02,test,but the equipment was a bit dated.,Roatan,Unclear,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+204,204-S009-C01,test,Costa Maya was our last stop.,Costa Maya,Costa Maya,Costa Maya,Neutral,Negative,-0.296,0.0,0.694,0.306,False
+204,204-S010-C01,test,We just walked the pier and did some souvenir shopping.,Costa Maya,Costa Maya,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+204,204-S011-C01,test,"The walk from the ship to the actual port exit is very long, especially in the heat, so take the little tram if it's running.",General Cruise,General Cruise,General Cruise,Negative,Neutral,0.0,0.0,1.0,0.0,False
+204,204-S012-C01,test,"Overall, a solid itinerary",General Cruise,General Cruise,General Cruise,Neutral,Positive,0.1531,0.348,0.652,0.0,False
+204,204-S013-C01,test,but I felt like the port times were a little short for Roatan.,Roatan,Roatan,Roatan,Neutral,Positive,0.5023,0.213,0.787,0.0,False
+231,231-S001-C01,test,The pacing between ports was interesting.,General Cruise,Unclear,General Cruise,Positive,Positive,0.4019,0.351,0.649,0.0,True
+231,231-S002-C01,test,"In Roatan, our excursion had a nice balance between activities and downtime, so we never felt rushed.",Roatan,Roatan,Roatan,Negative,Positive,0.4215,0.149,0.851,0.0,False
+231,231-S003-C01,test,Costa Maya felt more rigid.,Costa Maya,Costa Maya,Costa Maya,Neutral,Negative,-0.2006,0.0,0.69,0.31,False
+231,231-S004-C01,test,"The ruins tour was informative,",Costa Maya,Costa Maya,Costa Maya,Neutral,Negative,-0.4404,0.0,0.58,0.42,False
+231,231-S004-C02,test,but everything was scheduled tightly and we didn't have much flexibility.,Costa Maya,Costa Maya,Costa Maya,Neutral,Negative,-0.3724,0.0,0.797,0.203,False
+231,231-S005-C01,test,"Cozumel gave us the most freedom since we planned our own day,",Cozumel,Cozumel,Cozumel,Neutral,Positive,0.6697,0.29,0.71,0.0,False
+231,231-S005-C02,test,but it was also the busiest stop.,Cozumel,Cozumel,Cozumel,Neutral,Negative,-0.4215,0.0,0.682,0.318,False
+231,231-S006-C01,test,It took some effort to find a quieter area away from the crowds.,Cozumel,Cozumel,Cozumel,Positive,Neutral,0.0,0.0,1.0,0.0,False
+231,231-S007-C01,test,"I appreciated that each port offered something different,",General Cruise,Cozumel,General Cruise,Neutral,Positive,0.5106,0.32,0.68,0.0,False
+231,231-S007-C02,test,but I definitely preferred the more relaxed structure we had in Roatan compared to the more rigid experience in Costa Maya.,Multiple Destinations,Multiple Destinations,Costa Maya,Positive,Positive,0.7964,0.291,0.632,0.077,True
+398,398-S001-C01,test,Roatan offered the most memorable experience for me.,Roatan,Roatan,Roatan,Positive,Neutral,0.0,0.0,1.0,0.0,False
+398,398-S002-C01,test,"We joined a small group excursion that combined a wildlife visit and a beach stop, and it felt well paced without being rushed.",Roatan,Roatan,Roatan,Negative,Neutral,-0.0258,0.083,0.83,0.087,False
+398,398-S003-C01,test,"Costa Maya was a bit disappointing because we didn't book anything in advance and ended up staying within the port complex, which felt artificial.",Costa Maya,Costa Maya,Costa Maya,Negative,Negative,-0.4939,0.0,0.878,0.122,True
+398,398-S004-C01,test,Cozumel redeemed things slightly.,Cozumel,Cozumel,Cozumel,Neutral,Positive,0.3182,0.434,0.566,0.0,False
+398,398-S005-C01,test,"We found a quieter beach farther from the main dock area,",Cozumel,Cozumel,Cozumel,Positive,Neutral,0.0,0.0,1.0,0.0,False
+398,398-S005-C02,test,but it required negotiating with taxi drivers and figuring out timing to get back.,Cozumel,Cozumel,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+398,398-S006-C01,test,"Overall, I'd say planning ahead is essential for these ports.",General Cruise,Cozumel,General Cruise,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+130,130-S001-C01,test,I loved the variety on this trip!,Roatan,Unclear,Roatan,Positive,Positive,0.636,0.411,0.589,0.0,True
+130,130-S002-C01,test,Roatan had the best nature-the chocolate factory tour was so cool,Roatan,Roatan,Roatan,Positive,Positive,0.8015,0.444,0.556,0.0,True
+130,130-S002-C02,test,the jungle smells amazing after it rains.,Roatan,Roatan,Roatan,Positive,Positive,0.5859,0.388,0.612,0.0,True
+130,130-S003-C01,test,Costa Maya was our beach day; we just sat under a palapa in Mahahual and watched the waves.,Costa Maya,Costa Maya,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+130,130-S004-C01,test,"It was very relaxing, though the seaweed was a bit thick in some spots.",Costa Maya,Costa Maya,Costa Maya,Mixed,Positive,0.5413,0.212,0.788,0.0,False
+130,130-S005-C01,test,Cozumel was our big excursion day where we went to the San Gervasio ruins.,Cozumel,Cozumel,Cozumel,Neutral,Negative,-0.4404,0.0,0.818,0.182,False
+130,130-S006-C01,test,"They aren't as big as the ones on the mainland,",Cozumel,Cozumel,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+130,130-S006-C02,test,but they were very peaceful and not nearly as crowded.,Cozumel,Cozumel,Cozumel,Mixed,Positive,0.6946,0.345,0.655,0.0,False
+130,130-S007-C01,test,"I felt like we had plenty of time in each port, though I wish Cozumel stayed open a bit later into the evening so we could have had dinner on land.",Cozumel,Cozumel,Cozumel,Positive,Positive,0.6369,0.152,0.848,0.0,True
+130,130-S008-C01,test,"The transition from the ship to the shore was easy at all three stops, which isn't always the case.",General Cruise,General Cruise,General Cruise,Positive,Positive,0.3182,0.135,0.791,0.074,True
+130,130-S009-C01,test,Definitely a solid itinerary for people who like a mix of history and relaxation.,General Cruise,General Cruise,General Cruise,Neutral,Positive,0.8481,0.505,0.495,0.0,False
+377,377-S001-C01,test,Costa Maya ruins are a must-see!,Costa Maya,Costa Maya,Costa Maya,Positive,Negative,-0.4926,0.0,0.61,0.39,False
+377,377-S002-C01,test,Chaccoben is amazing.,Costa Maya,Costa Maya,Costa Maya,Positive,Positive,0.5859,0.655,0.345,0.0,True
+377,377-S003-C01,test,The jungle setting makes you feel like Indiana Jones.,Costa Maya,Costa Maya,Costa Maya,Neutral,Positive,0.3612,0.238,0.762,0.0,False
+377,377-S004-C01,test,The guides are very respectful of the history.,Costa Maya,Unclear,Costa Maya,Neutral,Positive,0.5095,0.32,0.68,0.0,False
+377,377-S005-C01,test,Cozumel is better for water sports.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.4404,0.367,0.633,0.0,True
+377,377-S006-C01,test,We did a helmet dive which was a unique way to see the reef without needing to know how to scuba.,Cozumel,Cozumel,Cozumel,Positive,Neutral,0.0,0.0,1.0,0.0,False
+377,377-S007-C01,test,Roatan was a bit of a mixed bag.,Roatan,Roatan,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+377,377-S008-C01,test,The scenery is 10/10,Roatan,Roatan,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+377,377-S008-C02,test,but the infrastructure is struggling.,Roatan,Roatan,Roatan,Neutral,Negative,-0.5719,0.0,0.519,0.481,False
+377,377-S009-C01,test,We were stuck in a shuttle for 45 minutes just trying to get out of the port area.,Roatan,Roatan,General Cruise,Neutral,Negative,-0.25,0.0,0.895,0.105,False
+377,377-S010-C01,test,"Once we got to our destination it was fine,",Roatan,Unclear,General Cruise,Positive,Positive,0.2023,0.184,0.816,0.0,True
+377,377-S010-C02,test,but the logistics on that island need work.,Roatan,Unclear,General Cruise,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+200,200-S001-C01,test,"I went into this cruise mostly interested in cultural experiences, and the ports delivered that unevenly",General Cruise,General Cruise,General Cruise,Neutral,Positive,0.4019,0.153,0.847,0.0,False
+200,200-S001-C02,test,but still memorably.,Roatan,Unclear,General Cruise,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+200,200-S002-C01,test,"Roatan exceeded expectations because we booked a small-group excursion that included a visit to a local community, a short jungle walk, and time near the water.",Roatan,Roatan,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+200,200-S003-C01,test,It felt immersive without being overwhelming.,Roatan,Roatan,Roatan,Negative,Neutral,0.0,0.0,1.0,0.0,False
+200,200-S004-C01,test,Costa Maya was more complicated.,Costa Maya,Costa Maya,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+200,200-S005-C01,test,"The ruins were fascinating and visually striking,",Costa Maya,Costa Maya,Costa Maya,Positive,Positive,0.1531,0.307,0.439,0.254,True
+200,200-S005-C02,test,but the long transportation time made the day feel dominated by logistics rather than exploration.,Multiple Destinations,Costa Maya,Costa Maya,Neutral,Positive,0.3291,0.144,0.856,0.0,False
+200,200-S006-C01,test,"Cozumel, while more commercial, offered flexibility.",Cozumel,Cozumel,Cozumel,Negative,Positive,0.3947,0.348,0.652,0.0,False
+200,200-S007-C01,test,"We opted out of excursions and created our own plan, which worked well",Cozumel,Cozumel,Cozumel,Neutral,Positive,0.4767,0.272,0.728,0.0,False
+200,200-S007-C02,test,but required some research beforehand.,Cozumel,Cozumel,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+200,200-S008-C01,test,"I noticed that crowd levels significantly impacted enjoyment, especially in Cozumel where multiple ships were docked.",Cozumel,Cozumel,Cozumel,Neutral,Positive,0.5574,0.194,0.806,0.0,False
+200,200-S009-C01,test,"Overall, I appreciated the variety,",Cozumel,Cozumel,Cozumel,Positive,Positive,0.5106,0.452,0.548,0.0,True
+200,200-S009-C02,test,but planning ahead was key to getting the most out of each stop.,Cozumel,Cozumel,General Cruise,Neutral,Negative,-0.4215,0.0,0.811,0.189,False
+522,522-S001-C01,test,Costa Maya was beautiful,Costa Maya,Costa Maya,Costa Maya,Positive,Positive,0.5994,0.565,0.435,0.0,True
+522,522-S001-C02,test,but we felt very pressured by the vendors as soon as we stepped off the ship.,General Cruise,General Cruise,Costa Maya,Neutral,Negative,-0.4194,0.0,0.843,0.157,False
+522,522-S002-C01,test,We ended up taking a taxi to Mahahual for $4 per person.,Costa Maya,Unclear,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+522,522-S003-C01,test,It was much more relaxed once we got away from the main cruise terminal.,General Cruise,General Cruise,General Cruise,Positive,Positive,0.5413,0.212,0.788,0.0,True
+522,522-S004-C01,test,The beach there is stunning,Costa Maya,Unclear,Costa Maya,Positive,Positive,0.3818,0.394,0.606,0.0,True
+522,522-S004-C02,test,but the seagrass was a bit heavy the day we visited.,Costa Maya,Unclear,General Cruise,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+522,522-S005-C01,test,Cozumel was much better for snorkeling; we went to Money Bar and just swam out from the shore.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.4404,0.146,0.854,0.0,True
+522,522-S006-C01,test,You don't even need a boat there to see some amazing fish.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.5859,0.257,0.743,0.0,True
+522,522-S007-C01,test,"Roatan was okay,",Roatan,Roatan,Roatan,Neutral,Positive,0.2263,0.487,0.513,0.0,False
+522,522-S007-C02,test,"but we found the port area quite confusing to navigate and the excursion we had booked was cancelled at the last minute, so we just ended up walking around the local shops which wasn't very exciting.",Roatan,Roatan,Roatan,Neutral,Negative,-0.8425,0.0,0.785,0.215,False
+460,460-S001-C01,test,"The itinerary was decent,",General Cruise,General Cruise,General Cruise,Positive,Neutral,0.0,0.0,1.0,0.0,False
+460,460-S001-C02,test,but the time in port felt short.,Cozumel,Unclear,General Cruise,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+460,460-S002-C01,test,"In Cozumel, we barely had enough time to finish our lunch at a local cafe before we had to run back.",Cozumel,Cozumel,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+460,460-S003-C01,test,Roatan was the highlight; the monkeys at the sanctuary were so fun to interact with.,Roatan,Roatan,Roatan,Positive,Positive,0.7678,0.338,0.662,0.0,True
+460,460-S004-C01,test,"Costa Maya is a beautiful port, very well-maintained,",Costa Maya,Costa Maya,Costa Maya,Positive,Positive,0.5994,0.358,0.642,0.0,True
+460,460-S004-C02,test,but it feels a bit like a movie set rather than a real place in Mexico.,Multiple Destinations,Costa Maya,Costa Maya,Neutral,Positive,0.5023,0.178,0.822,0.0,False
+460,460-S005-C01,test,"Overall, a good trip,",Costa Maya,Costa Maya,Costa Maya,Positive,Positive,0.4404,0.492,0.508,0.0,True
+460,460-S005-C02,test,but I wish we had 2-3 more hours in each location to really explore.,Costa Maya,Costa Maya,Costa Maya,Negative,Positive,0.5499,0.215,0.785,0.0,False
+336,336-S001-C01,test,"Traveling as a couple, we preferred slower-paced days.",Cozumel,Unclear,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+336,336-S002-C01,test,Cozumel worked perfectly for that.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.6369,0.512,0.488,0.0,True
+336,336-S003-C01,test,We went to a quieter beach club and spent hours just relaxing.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.4939,0.225,0.775,0.0,True
+336,336-S004-C01,test,Roatan was more activity-focused.,Roatan,Roatan,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+336,336-S005-C01,test,We did a combo excursion and felt a bit rushed between stops.,Multiple Destinations,Roatan,Roatan,Negative,Negative,-0.1531,0.0,0.873,0.127,True
+336,336-S006-C01,test,Costa Maya didn't leave much of an impression.,Costa Maya,Costa Maya,Costa Maya,Neutral,Positive,0.2612,0.337,0.663,0.0,False
+336,336-S007-C01,test,Next time we'd plan something more structured.,Costa Maya,Costa Maya,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+510,510-S001-C01,test,We are experienced cruisers so we usually skip the big bus tours.,Cozumel,Unclear,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+510,510-S002-C01,test,"In Cozumel, we rented a car for the day.",Cozumel,Cozumel,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+510,510-S003-C01,test,It's very easy to navigate the island as it's basically one big loop.,Cozumel,Cozumel,Cozumel,Positive,Positive,0.4927,0.21,0.79,0.0,True
+510,510-S004-C01,test,We found a secluded beach on the east side and had it all to ourselves for two hours.,Cozumel,Cozumel,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+510,510-S005-C01,test,Just watch out for the moped renters; they drive a bit crazy.,Cozumel,Unclear,Costa Maya,Neutral,Negative,-0.34,0.0,0.821,0.179,False
+510,510-S006-C01,test,"In Costa Maya, we actually stayed in the port and used the pool.",Costa Maya,Costa Maya,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+510,510-S007-C01,test,It was crowded,Costa Maya,Costa Maya,Costa Maya,Negative,Neutral,0.0,0.0,1.0,0.0,False
+510,510-S007-C02,test,but convenient since we didn't want to deal with a long day.,Costa Maya,Costa Maya,Costa Maya,Positive,Negative,-0.0857,0.0,0.892,0.108,False
+510,510-S008-C01,test,Roatan was a bit of a struggle.,Roatan,Roatan,Roatan,Negative,Negative,-0.3182,0.0,0.723,0.277,True
+510,510-S009-C01,test,We tried to do a walking tour,Roatan,Roatan,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+510,510-S009-C02,test,but the hills are very steep and there aren't many sidewalks once you leave the immediate port area.,Roatan,Roatan,Roatan,Neutral,Negative,-0.0772,0.0,0.929,0.071,False
+510,510-S010-C01,test,We ended up just grabbing a taxi back.,Roatan,Roatan,Costa Maya,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+510,510-S011-C01,test,"If you go to Roatan, definitely plan for transportation.",Roatan,Roatan,Roatan,Neutral,Positive,0.4019,0.252,0.748,0.0,False
+510,510-S012-C01,test,Don't think you can just wander around on foot like you can in some parts of Cozumel.,Cozumel,Cozumel,Cozumel,Neutral,Positive,0.3612,0.135,0.865,0.0,False
+510,510-S013-C01,test,"The port schedule was okay,",General Cruise,Cozumel,Cozumel,Neutral,Positive,0.2263,0.322,0.678,0.0,False
+510,510-S013-C02,test,but I wish we had stayed later in Cozumel to see the sunset from the shore.,Cozumel,Cozumel,Cozumel,Negative,Positive,0.5499,0.191,0.809,0.0,False
+250,250-S001-C01,test,I'm a solo traveler and I found Roatan very easy to navigate.,Roatan,Roatan,Roatan,Positive,Positive,0.4927,0.225,0.775,0.0,True
+250,250-S002-C01,test,I just walked off and found a local driver who took me to West End for $20.,Roatan,Roatan,Roatan,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+250,250-S003-C01,test,Spent the day at a small cafe on the water and did some great shore snorkeling.,Roatan,Roatan,Roatan,Positive,Positive,0.6249,0.215,0.785,0.0,True
+250,250-S004-C01,test,Cozumel was a bit much for me alone-everyone is trying to pull you into their shop or bar.,Cozumel,Cozumel,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+250,250-S005-C01,test,I ended up going back to the ship after an hour.,General Cruise,General Cruise,Cozumel,Neutral,Neutral,0.0,0.0,1.0,0.0,True
+250,250-S006-C01,test,Costa Maya was actually quite chill if you stay at the very end of the beach away from the cruise pier.,Costa Maya,Costa Maya,Costa Maya,Positive,Neutral,0.0,0.0,1.0,0.0,False
+250,250-S007-C01,test,The food at the local stalls in Mahahual was much better and cheaper than the port food.,Multiple Destinations,Costa Maya,Costa Maya,Positive,Positive,0.4404,0.153,0.847,0.0,True
+250,250-S008-C01,test,"I think the time in each port was adequate, though Cozumel feels like it needs a full 12 hours if you want to do the mainland excursions to Tulum.",Cozumel,Cozumel,Cozumel,Positive,Positive,0.5719,0.18,0.82,0.0,True

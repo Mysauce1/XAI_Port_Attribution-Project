@@ -1,0 +1,53 @@
+{
+  "n_clauses":1233,
+  "n_reviews":130,
+  "duplicate_clause_ids":0,
+  "empty_clause_text":0,
+  "labels":{
+    "Roatan":372,
+    "Costa Maya":367,
+    "Cozumel":357,
+    "Multiple Destinations":30,
+    "General Cruise":107
+  },
+  "reviews_by_split":{
+    "train":90,
+    "validation":20,
+    "test":20
+  },
+  "label_counts_by_split":{
+    "train":{
+      "Roatan":254,
+      "Costa Maya":261,
+      "Cozumel":242,
+      "Multiple Destinations":17,
+      "General Cruise":67
+    },
+    "validation":{
+      "Roatan":55,
+      "Costa Maya":50,
+      "Cozumel":55,
+      "Multiple Destinations":7,
+      "General Cruise":18
+    },
+    "test":{
+      "Roatan":63,
+      "Costa Maya":56,
+      "Cozumel":60,
+      "Multiple Destinations":6,
+      "General Cruise":22
+    }
+  },
+  "low_support_threshold":10,
+  "low_support_by_split":{
+    "train":[
+
+    ],
+    "validation":[
+      "Multiple Destinations"
+    ],
+    "test":[
+      "Multiple Destinations"
+    ]
+  }
+}

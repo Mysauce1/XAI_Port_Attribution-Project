@@ -1,0 +1,83 @@
+{
+  "model_name": "distilbert-base-uncased",
+  "max_length": 256,
+  "epochs_requested": 3,
+  "batch_size": 8,
+  "learning_rate": 2e-05,
+  "seed": 42,
+  "train_rows": 841,
+  "validation_rows": 185,
+  "train_class_counts": {
+    "Roatan": 254,
+    "Costa Maya": 261,
+    "Cozumel": 242,
+    "Multiple Destinations": 17,
+    "General Cruise": 67
+  },
+  "validation_class_counts": {
+    "Roatan": 55,
+    "Costa Maya": 50,
+    "Cozumel": 55,
+    "Multiple Destinations": 7,
+    "General Cruise": 18
+  },
+  "label_order": [
+    "Roatan",
+    "Costa Maya",
+    "Cozumel",
+    "Multiple Destinations",
+    "General Cruise"
+  ],
+  "selection_metric": "eval_macro_f1",
+  "best_validation_metric": 0.6120511359699357,
+  "best_checkpoint_path": "outputs\\bert\\checkpoints\\checkpoint-318",
+  "best_epoch": 3.0,
+  "global_step": 318,
+  "evaluation_history": [
+    {
+      "eval_loss": 0.8292427659034729,
+      "eval_accuracy": 0.745945945945946,
+      "eval_macro_f1": 0.48173103699419484,
+      "eval_runtime": 16.0816,
+      "eval_samples_per_second": 11.504,
+      "eval_steps_per_second": 1.492,
+      "epoch": 1.0,
+      "step": 106
+    },
+    {
+      "eval_loss": 0.6501530408859253,
+      "eval_accuracy": 0.7675675675675676,
+      "eval_macro_f1": 0.4945795787789923,
+      "eval_runtime": 18.9046,
+      "eval_samples_per_second": 9.786,
+      "eval_steps_per_second": 1.27,
+      "epoch": 2.0,
+      "step": 212
+    },
+    {
+      "eval_loss": 0.6031888127326965,
+      "eval_accuracy": 0.7945945945945946,
+      "eval_macro_f1": 0.6120511359699357,
+      "eval_runtime": 16.804,
+      "eval_samples_per_second": 11.009,
+      "eval_steps_per_second": 1.428,
+      "epoch": 3.0,
+      "step": 318
+    }
+  ],
+  "confidence_semantics": "Maximum softmax score; not a calibrated probability unless separately calibrated on validation data.",
+  "transformers_version": "4.46.3",
+  "torch_version": "2.14.1+cpu",
+  "dynamic_padding": true,
+  "class_weighting": "none",
+  "class_weights": {
+    "Roatan": 1.0,
+    "Costa Maya": 1.0,
+    "Cozumel": 1.0,
+    "Multiple Destinations": 1.0,
+    "General Cruise": 1.0
+  },
+  "started_at_utc": "2026-10-18T17:48:38+00:00",
+  "finished_at_utc": "2026-10-18T18:06:12+00:00",
+  "command_line": "scripts/train_bert.py --epochs 3 --batch-size 8 --seed 42"
+}

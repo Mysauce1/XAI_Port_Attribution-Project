@@ -1,0 +1,3 @@
+method,accuracy,balanced_accuracy,macro_f1,weighted_f1,coverage,selective_accuracy,window_size,model_dir,split_file,n,low_support_classes
+Rule-based,0.821256038647343,0.6872366522366522,0.7477070272722446,0.8661021328318115,0.8792270531400966,0.9340659340659341,2.0,,data\processed\review_splits.csv,207,Multiple Destinations
+Contextual BERT,0.7874396135265701,0.6235786435786436,0.6096217248191541,0.778097573854109,1.0,0.7874396135265701,,outputs\bert_balanced\model,data\processed\review_splits.csv,207,Multiple Destinations

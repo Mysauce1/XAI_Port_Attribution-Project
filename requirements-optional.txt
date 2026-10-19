@@ -1,0 +1,5 @@
+# Only needed for the legacy clause-building utilities in source_utils.py.
+# The VADER sentiment analysis needs only requirements-sentiment.txt.
+spacy>=3.7,<4.0
+ftfy>=6.1,<7.0
+vaderSentiment>=3.3,<4.0

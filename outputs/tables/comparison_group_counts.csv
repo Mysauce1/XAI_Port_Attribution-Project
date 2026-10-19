@@ -1,0 +1,7 @@
+comparison_group,n
+bert_correct_rule_abstained,11
+bert_correct_rule_wrong,3
+both_correct,149
+both_wrong_rule_abstained,14
+both_wrong_rule_incorrect,9
+rule_only_correct,21

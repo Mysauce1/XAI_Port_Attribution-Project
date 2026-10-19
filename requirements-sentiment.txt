@@ -1,0 +1,2 @@
+# Install after requirements.txt for the separate VADER sentiment analysis (scripts/run_sentiment.py).
+vaderSentiment>=3.3,<4.0

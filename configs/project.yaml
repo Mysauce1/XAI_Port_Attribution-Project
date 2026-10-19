@@ -1,0 +1,58 @@
+project:
+  name: cruise-review-destination-attribution-xai
+  research_question: "How do rule-based and contextual BERT approaches compare in predictive performance, interpretability, and explainability when attributing cruise-review statements to destinations?"
+  seed: 42
+  labels:
+    - Roatan
+    - Costa Maya
+    - Cozumel
+    - Multiple Destinations
+    - General Cruise
+  abstention_label: Unclear
+
+paths:
+  annotations: data/processed/annotated_reviews.csv
+  raw_reviews: data/raw/cruise_reviews.jsonl
+  review_splits: data/processed/review_splits.csv
+  output_dir: outputs
+
+rule_baseline:
+  method: forward_window
+  window_size: 2                 # measured in sentences after the explicit port mention
+  sentiment_independent_context: true
+  backward_context: false
+  abstain_when_context_missing: true
+
+bert:
+  model_name: distilbert-base-uncased
+  max_length: 256
+  epochs: 3
+  batch_size: 8
+  learning_rate: 0.00002
+  selection_metric: macro_f1
+  class_weighting: none          # or "balanced" (inverse class frequency); compare on validation only
+
+split:
+  group_column: review_id
+  test_size: 0.15
+  validation_size: 0.15
+
+xai:
+  method: integrated_gradients
+  ig_steps: 32
+  faithfulness_top_k: 3
+  stability_probe: punctuation_normalization
+
+imbalance:
+  min_support_warning: 10        # classes with fewer gold clauses are flagged as low-support
+  normalized_confusion_matrices: true
+
+sentiment:                       # separate analysis; does not affect destination attribution
+  method: vader
+  text_column: clause_text
+  positive_threshold: 0.05       # VADER compound >= this -> Positive
+  negative_threshold: -0.05      # VADER compound <= this -> Negative
+  mixed_min: null                # optional; choose on train/validation only
+  evaluation_split: test
+  min_clauses_per_destination: 5
+  bootstrap_resamples: 2000

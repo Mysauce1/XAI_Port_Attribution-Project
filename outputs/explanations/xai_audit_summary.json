@@ -1,0 +1,45 @@
+{
+  "test_clauses_evaluated": 207,
+  "ig": {
+    "initial_steps": 32,
+    "flagged_clauses_initial": 11,
+    "flagged_clause_fraction_initial": 0.05314009661835749,
+    "flagged_clauses_rerun_at_higher_steps": 11,
+    "rerun_steps": 64,
+    "still_flagged_after_rerun": 0,
+    "rerun_output_file": "integrated_gradients_reliability_reruns.csv",
+    "note": "Initial attributions are preserved; flagged clauses are separately rerun at higher n_steps. Faithfulness uses rerun attributions for those clauses."
+  },
+  "faithfulness": {
+    "eligible_top_positive_n": 207,
+    "total_n": 207,
+    "mean_top_positive_probability_drop": 0.4756991822758447,
+    "mean_random_probability_drop_matched": 0.022004957626695222,
+    "mean_low_attribution_probability_drop": -0.0020658177310141964,
+    "paired_review_bootstrap_top_minus_random": {
+      "status": "ok",
+      "estimand": "mean(top_positive_probability_drop - random_probability_drop)",
+      "point_estimate": 0.4536942246491494,
+      "ci_95_percentile": [
+        0.41830087218138096,
+        0.4908096563328527
+      ],
+      "n_clauses": 207,
+      "n_reviews": 20,
+      "bootstrap_replicates": 2000,
+      "note": "Reviews are resampled as clusters; clauses within a sampled review stay together."
+    },
+    "note": "Primary faithfulness comparison uses matched eligible clauses; low-attribution deletion is secondary."
+  },
+  "stability": {
+    "eligible_n": 46,
+    "total_n": 207,
+    "agreement_n": 43,
+    "agreement_rate": 0.9347826086956522,
+    "excluded_n": 161,
+    "exclusion_reasons": {
+      "unchanged_input": 161
+    },
+    "interpretation": "Prediction agreement is summarized only over eligible edited inputs; it is not attribution stability."
+  }
+}

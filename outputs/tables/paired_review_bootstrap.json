@@ -1,0 +1,40 @@
+{
+  "method": "paired_review_level_cluster_bootstrap_percentile_ci",
+  "confidence_level": 0.95,
+  "n_resamples_requested": 2000,
+  "n_reviews": 20,
+  "n_clauses": 207,
+  "random_state": 42,
+  "resampling_unit": "review_id",
+  "paired_difference": "BERT minus rule-based",
+  "macro_metrics_taxonomy": [
+    "Roatan",
+    "Costa Maya",
+    "Cozumel",
+    "Multiple Destinations",
+    "General Cruise"
+  ],
+  "macro_precision_recall_f1_absent_class_policy": "fixed five classes; zero_division=0",
+  "balanced_accuracy_absent_class_policy": "average recall over gold classes present in each replicate",
+  "missing_gold_class_resamples": {
+    "Roatan": 0,
+    "Costa Maya": 0,
+    "Cozumel": 0,
+    "Multiple Destinations": 3,
+    "General Cruise": 0
+  },
+  "missing_gold_class_resample_fraction": {
+    "Roatan": 0.0,
+    "Costa Maya": 0.0,
+    "Cozumel": 0.0,
+    "Multiple Destinations": 0.0015,
+    "General Cruise": 0.0
+  },
+  "undefined_selective_accuracy_resamples": {
+    "rule": 0,
+    "bert": 0
+  },
+  "test_split_validation": "Enforced when a split column is present; otherwise the caller must provide test-only rows.",
+  "alignment_contract": "Caller must build the comparison table by key-aligning gold labels and both methods before calling this function; this function validates unique clause keys when clause_id is present.",
+  "note": "Percentile intervals quantify review-sampling uncertainty; they do not include model-training-seed variability. Missing-class resample counts should be reported as a test-set limitation when substantial."
+}

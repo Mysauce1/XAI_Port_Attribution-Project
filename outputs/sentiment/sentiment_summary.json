@@ -1,0 +1,125 @@
+{
+  "split": "test",
+  "n_clauses": 207,
+  "n_reviews": 20,
+  "methods": [
+    "rule",
+    "bert"
+  ],
+  "vader_settings": {
+    "positive_threshold": 0.05,
+    "negative_threshold": -0.05,
+    "mixed_min": null,
+    "text_column": "clause_text"
+  },
+  "vader_vs_gold": {
+    "n": 207,
+    "accuracy": 0.5893719806763285,
+    "macro_f1": 0.4007051527122892,
+    "weighted_f1": 0.5776706018984523,
+    "balanced_accuracy": 0.41636724701240835,
+    "macro_f1_three_class": 0.5342735369497189,
+    "gold_class_support": {
+      "Positive": 74,
+      "Negative": 31,
+      "Neutral": 99,
+      "Mixed": 3
+    },
+    "predicted_class_counts": {
+      "Positive": 103,
+      "Negative": 32,
+      "Neutral": 72,
+      "Mixed": 0
+    },
+    "low_support_classes": [
+      "Mixed"
+    ],
+    "min_support_threshold": 10,
+    "per_class": {
+      "Positive": {
+        "precision": 0.6019417475728155,
+        "recall": 0.8378378378378378,
+        "f1-score": 0.7005649717514124,
+        "support": 74.0
+      },
+      "Negative": {
+        "precision": 0.3125,
+        "recall": 0.3225806451612903,
+        "f1-score": 0.31746031746031744,
+        "support": 31.0
+      },
+      "Neutral": {
+        "precision": 0.6944444444444444,
+        "recall": 0.5050505050505051,
+        "f1-score": 0.5847953216374269,
+        "support": 99.0
+      },
+      "Mixed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      }
+    }
+  },
+  "joint_destination_and_sentiment": {
+    "rule": {
+      "n": 207,
+      "coverage": 0.8792270531400966,
+      "destination_accuracy": 0.821256038647343,
+      "sentiment_accuracy": 0.5893719806763285,
+      "joint_accuracy": 0.46859903381642515
+    },
+    "bert": {
+      "n": 207,
+      "coverage": 1.0,
+      "destination_accuracy": 0.7874396135265701,
+      "sentiment_accuracy": 0.5893719806763285,
+      "joint_accuracy": 0.45893719806763283
+    }
+  },
+  "profile_error_summary": {
+    "destinations_compared": [
+      "Roatan",
+      "Costa Maya",
+      "Cozumel",
+      "General Cruise"
+    ],
+    "destinations_excluded_low_support": [
+      "Multiple Destinations"
+    ],
+    "gold|vader_sentiment": {
+      "mean_net_sentiment_abs_error": 0.15101911976911975,
+      "mean_share_abs_error": 0.08034361471861472
+    },
+    "rule|gold_sentiment": {
+      "mean_net_sentiment_abs_error": 0.021504628412523152,
+      "mean_share_abs_error": 0.02154571792729687
+    },
+    "rule|vader_sentiment": {
+      "mean_net_sentiment_abs_error": 0.15389088250930355,
+      "mean_share_abs_error": 0.08535438124253913
+    },
+    "bert|gold_sentiment": {
+      "mean_net_sentiment_abs_error": 0.027009239900106757,
+      "mean_share_abs_error": 0.01762554782678622
+    },
+    "bert|vader_sentiment": {
+      "mean_net_sentiment_abs_error": 0.17169500734903212,
+      "mean_share_abs_error": 0.08328370223687562
+    }
+  },
+  "min_clauses_for_profile": 5,
+  "bootstrap": {
+    "file": "sentiment_bootstrap_intervals.csv",
+    "resamples": 2000,
+    "unit": "review_id",
+    "seed": 42
+  },
+  "notes": [
+    "Profile errors are measured against the gold-destination, gold-sentiment profile.",
+    "Abstained (Unclear) rule clauses are excluded from rule profiles; see coverage.",
+    "Without --mixed-min, VADER cannot output Mixed, so Mixed recall is 0 by construction.",
+    "Low-support destinations and sentiment classes are flagged; interpret them cautiously."
+  ]
+}
